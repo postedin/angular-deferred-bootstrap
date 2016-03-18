@@ -5,17 +5,21 @@
   "authors": [
     "Philipp Denzler <philippd@gmail.com>"
   ],
-  "main": "angular-deferred-bootstrap.js",
+  "main": "./dist/angular-deferred-bootstrap.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "package.json",
     "test",
-    "tests"
+    "tests",
+    "demo",
+    "Gruntfile.js",
+    "server.js"
   ],
   "devDependencies": {
-    "angular": "1.2.21",
-    "angular-mocks": "1.2.21"
+    "angular": "1.5.1",
+    "angular-mocks": "1.5.1"
   }
 }
