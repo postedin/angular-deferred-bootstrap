@@ -177,8 +177,8 @@ var deferredBootstrapper = {
 
 if(typeof define === 'function' && define.amd) {
   define([], deferredBootstrapper);
-} else if(typeof module === 'object' && module.exports) {
-  module.exports = deferredBootstrapper;
-} else {
-  window.deferredBootstrapper = deferredBootstrapper;
 }
+if(typeof module === 'object' && module.exports) {
+  module.exports = deferredBootstrapper;
+}
+window.deferredBootstrapper = deferredBootstrapper;
