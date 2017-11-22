@@ -9,7 +9,6 @@
     "url": "https://github.com/cncgl/angular-deferred-bootstrap.git#hotfix_deferred"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install",
     "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "author": {
