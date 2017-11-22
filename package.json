@@ -1,3 +1,4 @@
+
 {
   "name": "angular-deferred-bootstrap",
   "version": "0.1.9",
@@ -5,7 +6,7 @@
   "homepage": "https://github.com/philippd/angular-deferred-bootstrap",
   "repository": {
     "type": "git",
-    "url": "git://github.com/philippd/angular-deferred-bootstrap"
+    "url": "https://github.com/cncgl/angular-deferred-bootstrap.git#hotfix_deferred"
   },
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
